@@ -4,7 +4,7 @@ import cors from "cors";
 import http from "http";
 import { Server } from "socket.io";
 import dotenv from "dotenv";
-
+import mongoose from 'mongoose'; 
 import connectDB from "./config/db.js";
 
 // Routes
